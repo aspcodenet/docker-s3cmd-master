@@ -5,6 +5,7 @@
 #
 S3CMD_PATH=/opt/s3cmd/s3cmd
 
+
 #
 # Check for required parameters
 #
