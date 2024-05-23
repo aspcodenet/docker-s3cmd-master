@@ -55,6 +55,7 @@ if [ "${cmd}" != "interactive" ]; then
       ${S3CMD_PATH} --config=/.s3cfg  sync ${SRC_S3} /opt/dest/
   fi
 
+cat /.s3cfg
   #
   # sync-local-to-s3 - copy from local to s3
   #
